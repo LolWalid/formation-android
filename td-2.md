@@ -132,7 +132,7 @@ val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_task, p
 ```
 
 - `onBindViewHolder` doit insèrer la donnée dans la cellule (`TaskViewHolder`) en fonction de sa `position` dans la liste en utilisant la méthode `bind()` que vous avez créée dans `TaskViewHolder` (elle ne fait rien pour l'instant)
-- Implémentez maintenant `bind()` qui doit récupérer une référence à la `TextView` dans `item_layout.xml` et y insérer le texte récupéré en argument
+- Implémentez maintenant `bind()` qui doit récupérer une référence à la `TextView` dans `item_task.xml` et y insérer le texte récupéré en argument
 - Lancez l'app: vous devez voir 3 tâches s'afficher 👏
 
 ## Ajout de la data class Task
